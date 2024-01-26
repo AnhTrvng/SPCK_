@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    
+    <script src="https://kit.fontawesome.com/8c54b2b6c3.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="../../../../Assets/icons/hotel-icon.gif">
+</head>
+<body>
+    <div class="account-box">
+       <p class="title">LOGIN TO <br><span>Hotely</span></p>
+        <form id="LoginForm">
+            <div>
+                 <input id="email" type="email" placeholder="Email" required="" onfocus="this.placeholder=''" onblur="this.placeholder='Email'" autocomplete="off">
+                 <i class="fa-solid fa-envelope" style="margin-top:40px"></i>
+            </div>
+               
+            <div>
+                <input id="pass" type="password" placeholder="Password" required="" onfocus="this.placeholder=''" onblur="this.placeholder='Password'">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            <div id="check-box">
+                <em><label>Show Password</label></em>
+                <span><input id="show" type="checkbox" onclick="ShowPass()"></span>
+             </div>
+            
+             <button type="submit" class="btn" title="left click :D ">LOGIN</button>
+          
+            <a class="switch" href="../register/register.html">Don't have an account?</a>
+
+           
+       </form>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

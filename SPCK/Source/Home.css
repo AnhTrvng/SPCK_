@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+body{
+    height: 5000px;
+}
+
+
+.img1{
+    width: 100%;
+    height:550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    filter: brightness(35%); 
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px 0px 0px 70px;
+    color: white;
+    font-size:43px;
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tah1oma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.navbar{
+    position: absolute;
+    overflow: hidden;
+    background-color: none;
+    width: 100%;
+    font-weight: 550;
+    font-size: 105%;
+    top: 0;
+    z-index: 1;
+    
+
+}
+  
+  
+.navbar a  {
+     color:white;
+     font-weight: 400;
+     padding: 20px ;
+     text-decoration: none;
+     text-align: center;
+     float: right;
+     margin-right: 10px;
+     margin-top:40px;
+     border-radius: 30px;
+     padding: 10px 20px 10px 20px;
+     border: 2px solid transparent;
+     transition: 0.1s;
+     transform: translate(-50%, -50%);
+     
+     
+}
+  
+.navbar a:active{
+    padding: 7px 20px 7px 20px;
+}
+  
+.navbar a.login { 
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+.navbar a:hover{
+    border: 2px solid orange;
+    color: orange
+}
+
+
+.title{
+    color:white;
+    font-size: 300%;
+    font-weight: 800;
+    position: absolute;
+    top:0;
+    margin-top: 150px;
+    width: 700px;
+}
+
+.title2{
+    color:white;
+    font-size: 300%;
+    font-weight: 800;
+    
+    position: absolute;
+    top:0;
+    margin-top: 300px;
+    width: 700px;
+}
+
+.title-container{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.aboutus{
+    display: flex;
+}
+
+.aboutus .text{
+    margin: 50px 0 0 50px;
+    width: 550px
+}
+
+.img2{
+    width: 500px;
+    height: 450px;
+    margin: 50px 0 0 80px;
+    float: left;
+}
+
+
+.aboutus .text .one{
+   font-size: 25px;
+   font-weight: 800;
+   color: orange;
+
+}
+
+.aboutus .text .two{
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(0, 0, 86)
+}
+
+.aboutus .text .three{
+    padding-top:15px;
+    color: rgb(60, 60, 60);
+    font-size: 16px
+}
+
+.aboutus .text ul{
+    columns: 2;
+    padding-top: 17px;
+    font-weight: 600;
+    
+}
+
+.aboutus .text li{
+    padding: 10px;
+   list-style-type: '✓';
+   font-size: 18px;
+}
+.aboutus .text li::marker{
+    color:orange
+}
+
+.service{
+    margin-top: 50px;
+    background-color: aliceblue;
+    padding-bottom: 50px;
+}
+
+.service .text{
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 40px;
+}
+
+.service .text .one{
+    font-size: 25px;
+    font-weight: 800;
+    color: orange;
+}
+
+.service .text .two{
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(0, 0, 86)
+}
+
+.service .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.service .box{
+    background-color: white;
+    width: 350px;
+    height: 320px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0px 0px 20px 0.1px #aeaeae;
+    transition: 0.1s;
+
+}
+
+.service .box i{
+    font-size: 35px;
+    color: orange;
+    border: 1px solid rgb(150, 150, 150);
+    outline: 1px solid rgb(150, 150, 150);
+    border-radius: 1px;
+    outline-offset: 4px;
+    border-spacing: 10px;
+    padding: 8px;
+    margin: 40px 0 20px 0px;
+}
+
+.service .box .one{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.service .box .two{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.service .box:hover{
+    background-color: orange;
+    color: white;
+    
+}
+
+.service .box:hover i{
+    color: white;
+    border-color: white;
+    outline-color: white;
+}
+
+.service .box:active .one{
+    text-decoration: underline;
+}
+
+.contactus{
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.contactus .one{
+    font-size: 25px;
+    font-weight: 800;
+    color: orange;
+}
+
+.contactus .two{
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(0, 0, 86)
+}
+
+.type1{
+    padding: 15px 100px 15px 20px;
+    margin: 50px 30px 0px 80px;
+    font-size: 18px;
+    border: 2px solid rgb(0, 0, 86)
+    
+  }
+  
+  .type2{
+    padding: 15px 100px 15px 20px;
+    margin: 20px 30px 0px 80px;
+    font-size: 18px;
+    border: 2px solid rgb(0, 0, 86)
+  }
+  
+  .type3{
+    padding: 15px 300px 15px 20px;
+    margin: 30px 0 0 80px;
+    font-size: 18px;
+    border: 2px solid rgb(0, 0, 86)
+  }
+  
+  .type4{
+    padding: 15px 300px 150px 20px;
+    margin: 30px 0 0 80px;
+    font-size: 18px;
+    border: 2px solid rgb(0, 0, 86)
+  }
+
+.img3{
+    position: absolute;
+    top: 2200px;
+    right:100px
+}
+

@@ -1,0 +1,158 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS', cursive
+}
+body 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../../../Assets/images/Orange\ Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  }
+
+.account-box{
+  width:420px;
+  height:480px;
+  border-radius: 30px;
+  background-color: rgb(255, 211, 65);
+  border:3px rgb(222, 118, 0) solid;
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+.title{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 800;
+  color:rgb(203, 108, 0);
+  -webkit-text-stroke: 1px rgb(108, 65, 0);
+  
+}
+
+input{
+  display: inline-block;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  width:80%;
+  padding:10px;
+  margin-left:6%;
+  border-radius: 18px;  
+  background-color: rgb(255, 115, 0);
+  font-size:20px;
+  font-weight: 550;
+  border: 3px solid rgb(255, 115, 0);
+  transition: 0.2s;
+}
+
+input:focus{
+  border: 3px solid brown;
+  box-shadow: 1px 1px 7px  rgb(143, 33, 33)
+}
+
+input[type="email"]{
+  margin-top:40px;
+  margin-bottom:20px;
+  
+}
+
+
+::placeholder{
+  color:rgb(0, 0, 0)
+}
+  
+i{
+  position: absolute;
+  right:0;
+  padding-right: 20px;
+  padding-top: 13px;
+  font-size: 180%;
+}
+
+input:focus{
+  border: 3px solid brown;
+  
+}
+
+input:focus::placeholder{
+  color:black
+}
+
+#check-box{
+  
+  float:right;
+  display:flex;
+  margin: 10px 35px 0 0;
+  font-size:90%
+  
+}
+
+.alert{
+  float: left;
+  margin: 10px 0 0 35px;
+  font-size:90%;
+  color: red;
+  font-weight: 500;
+
+  
+}
+
+
+
+#show{
+  margin-left:6px;
+  margin-top:4px;
+  outline: none;
+  border: none ;
+  height:15px;
+  width: 15px;
+  accent-color: red;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.btn{
+  width: 86%;
+  border: none;
+  font-size: 25px;
+  background-image: linear-gradient(to right, #f36e3e, rgb(206, 53, 11));
+  color: white;
+  padding: 12px;
+  margin: 20px 7% 0px;
+  border-radius: 40px;
+  letter-spacing: 5px;
+  cursor: pointer;
+
+}
+
+.btn:hover{
+  background-image: linear-gradient(to right, rgb(206, 53, 11),#f36e3e);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.switch{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: brown;
+  padding-top:20px
+}
+
+.switch:hover{
+  color:black
+}
+
+.switch:active{
+  color: red;
+}
